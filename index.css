@@ -7,10 +7,22 @@ html{
 header,main{
   text-align: center;
 }
+body{
+background: #FAD7A8
 
+}
 #title{
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-around;
+}
+
+ul {
+
+  list-style: none;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
 }

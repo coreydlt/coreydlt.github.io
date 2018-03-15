@@ -1,0 +1,19 @@
+html{
+  box-sizing: border-box;
+}
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+header,main{
+  text-align: center;
+}
+body{
+background: #D1BEB0
+
+}
+#title{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}

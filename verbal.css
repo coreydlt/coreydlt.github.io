@@ -1,0 +1,21 @@
+html{
+  box-sizing: border-box;
+}
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+header,main{
+  text-align: center;
+}
+
+#title{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+#button{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;end
+}

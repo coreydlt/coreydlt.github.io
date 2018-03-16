@@ -7,15 +7,21 @@ html{
 header,main{
   text-align: center;
 }
-
+body{
+  background: #BAA5FF
+}
 #title{
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-around;
 }
-#button{
+
+ul {
+
+  list-style: none;
+}
+.container {
   display: flex;
-  flex-direction: column;
-  align-items:flex-end;end
+  justify-content: space-around;
 }

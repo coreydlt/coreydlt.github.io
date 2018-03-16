@@ -14,8 +14,18 @@ flex-direction: column;
 align-items: center;
 justify-content: space-around;
 }
-#button{
+#title{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+ul {
+
+  list-style: none;
+}
+.container {
   display: flex;
-  flex-direction: column;
-  align-items:flex-end;end
+  justify-content: space-around;
 }

@@ -29,17 +29,17 @@ console.log(personality)
   result.style.display = "block"
   tryAgain.style.display = "block"
   if(personality == "Aural"){
-    pagetitle.innerHTML = "You're Aural"
+    pagetitle.innerHTML = "You're Learning Type is Aural"
     result.style.backgroundImage = "url('img/download.png')"
   }else if(personality == "Logical"){
-    pagetitle.innerHTML = "You're Logical"
+    pagetitle.innerHTML = "You're Learning Type is Logical"
     result.style.backgroundImage = "url('img/download-1.png')"
   }else if(personality == "Physical"){
-  pagetitle.innerHTML = "You're Physical"
+  pagetitle.innerHTML = "You're Learning Type is Physical"
   result.style.backgroundImage = "url('img/images.png')"
   }
   else if(personality == "Social"){
-    pagetitle.innerHTML = "You're Social"
+    pagetitle.innerHTML = "You're Learning Type is Social"
     result.style.backgroundImage = "url('img/download-2.jpg')"
   }
 }

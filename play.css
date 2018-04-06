@@ -1,85 +1,82 @@
 html {
-  box-sizing: border-box;
+     box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+ *, *:before, *:after {
+     box-sizing: inherit;
 }
-
-header, main {
-  text-align: center;
+ header, main {
+     text-align: center;
 }
-button {
-    top: 10px;
-    bottom: 10px;
-    right: auto;
-    left: auto;
-    height: 50px;
-    width: 200px;
-
+ button {
+     top: 10px;
+     bottom: 10px;
+     right: auto;
+     left: auto;
+     height: 50px;
+     width: 200px;
 }
-body{
-  background: #EDB458
+ body{
+     background: #EDB458
 }
-#tryAgain {
-  display: none;
-  top: 10px;
-  bottom: 10px;
-  right: auto;
-  left: auto;
-  height: 110px;
-  width: 50px;
+ #tryAgain {
+     display: none;
+     top: 10px;
+     bottom: 10px;
+     right: auto;
+     left: auto;
+     height: 110px;
+     width: 50px;
 }
-#submit {
-  display: flex;
-  justify-content: center;
-  top: 10px;
-  bottom: 10px;
-  right: auto;
-  left: auto;
-  height: 400px;
-  width: 250px;
+ #submit {
+     display: flex;
+     justify-content: center;
+     top: 10px;
+     bottom: 10px;
+     right: auto;
+     left: auto;
+     height: 400px;
+     width: 250px;
 }
-#quizWrapper {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
+ #quizWrapper {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
 }
-
-.question{
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 75%;
+ .question{
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     width: 75%;
 }
-
-.question h2{
-  flex-basis: 100%;
-  font-size:2em;
+ .question h2{
+     flex-basis: 100%;
+     font-size:2em;
 }
-.question input{
-  flex-basis: 50%;
+ .question input{
+     flex-basis: 50%;
 }
-#result{
-display: flex;
-  top: 0;
-  bottom: 0;
-  right: auto;
-  left: auto;
-  height: 400px;
-  width: 250px;
-  background-repeat: none;
-  background-size: cover;
-  background-position: center;
+ #result{
+     display: flex;
+     top: 0;
+     bottom: 0;
+     right: auto;
+     left: auto;
+     height: 400px;
+     width: 250px;
+     background-repeat: none;
+     background-size: cover;
+     background-position: center;
 }
-@media only screen and (max-width: 768px) {
-  #quizWrapper {
-flex-direction: row;
+ @media only screen and (max-width: 768px) {
+     #quizWrapper {
+         flex-direction: row;
+    }
 }
+ .container {
+     display: flex;
+     justify-content: space-around;
 }
-.container {
-  display: flex;
-  justify-content: space-around;
-}
+ 

@@ -45,6 +45,7 @@ function processResults() {
 
 }
 
+
 function getPersonality() {
     var score = 0
     if (attitude.id === "Outgoing") {
